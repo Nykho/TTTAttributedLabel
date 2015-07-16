@@ -323,7 +323,7 @@ typedef NSMutableAttributedString * __nullable (^TTTInheritAndConfigureBlock) (N
  
  @discussion This string is `nil` by default.
  */
-- (void)setText:(nullable id)text
+- (void)setText:(id)text
 afterInheritingLabelAttributesAndConfiguringWithBlock:(nullable TTTInheritAndConfigureBlock)block;
 
 ///------------------------------------
